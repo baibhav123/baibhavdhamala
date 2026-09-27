@@ -1,0 +1,1278 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Baibhav Dhamala — Student-Athlete, Tech Founder &amp; Class 11 STEM Scholar</title>
+  <meta name="description" content="Official portfolio of Baibhav Dhamala from Siliguri, West Bengal. Student at Sri Sri Academy, 90% in CBSE Class 10, Founder of Dhamala Tech (Kalp Studio), active cricketer, and AI enthusiast.">
+  <meta name="theme-color" content="#07090e">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Main Stylesheets -->
+  <link rel="stylesheet" href="src/styles/portfolio.css">
+  <link rel="stylesheet" href="src/styles/clone.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       Navigation Bar
+       ======================================================================== -->
+  <nav class="site-nav" id="siteNav">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-dot"></span>
+        <span>BAIBHAV<span style="color: var(--accent-cyan);">.</span>DEV</span>
+        <span class="brand-badge">SRI SRI ACADEMY · SILIGURI</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#ventures">Dhamala Tech</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#cricket">Cricket</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button type="button" class="btn btn-secondary btn-sm open-academic-modal">
+          <span>Academic CV</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm">Get In Touch</a>
+        <button type="button" class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <a href="#about">About Me</a>
+    <a href="#academics">Academics</a>
+    <a href="#ventures">Dhamala Tech &amp; Kalp Studio</a>
+    <a href="#skills">Skills &amp; Arsenal</a>
+    <a href="#projects">Featured Projects</a>
+    <a href="#cricket">Cricket &amp; Athletics</a>
+    <a href="#journey">Timeline</a>
+    <a href="#contact">Contact</a>
+    <button type="button" class="btn btn-secondary btn-sm open-academic-modal" style="margin-top: 10px;">View Full Academic CV</button>
+  </div>
+
+  <!-- ========================================================================
+       Hero Section — Starting with Real Photo & "Hi, I am Baibhav Dhamala"
+       ======================================================================== -->
+  <header class="hero-section" id="hero">
+    <canvas id="heroCanvas"></canvas>
+    <div class="container hero-layout">
+      <!-- Left Column: Introduction & Pitch -->
+      <div class="hero-content">
+        <div class="hero-status">
+          <span class="status-ping"></span>
+          <span class="status-text">Founder, Dhamala Tech · Sri Sri Academy Siliguri · Class 11 Science (PCM + CS)</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I am <span class="gradient-text">Baibhav Dhamala</span>
+        </h1>
+
+        <p style="font-family: var(--font-display); font-size: clamp(20px, 2.2vw, 28px); font-weight: 700; color: #fff; margin-bottom: 16px;">
+          Student-Athlete, Tech Founder &amp; <span class="gradient-text-alt">AI Architect</span>.
+        </p>
+
+        <p class="hero-desc">
+          From Siliguri, West Bengal. Founder of <strong>Dhamala Tech</strong>, building next-generation AI platforms including <strong>ChatX AI Workspace</strong>, <strong>TutorX</strong>, and <strong>SanketX</strong>. Scored <strong>90% in CBSE Class 10</strong> at <strong>Sri Sri Academy</strong>, balancing deep tech innovation with competitive school cricket.
+        </p>
+
+        <div class="hero-actions">
+          <a href="https://dhamalatech.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <span>Dhamala Tech ↗</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+          <a href="https://chatx.dhamalatech.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color: rgba(0, 240, 255, 0.4);">
+            <span>ChatX AI ↗</span>
+          </a>
+          <button type="button" class="btn btn-secondary open-academic-modal">
+            <span>Academic Credentials</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+          </button>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-value">Founder</span>
+            <span class="stat-label">Dhamala Tech AI</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">90%</span>
+            <span class="stat-label">CBSE Class X Boards</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">1st Place</span>
+            <span class="stat-label">Techzibit 1.0 Tech Fest</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">Cricketer</span>
+            <span class="stat-label">Sri Sri Academy Siliguri</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Baibhav's Real Photo -->
+      <div class="hero-photo-container">
+        <div class="hero-photo-wrap">
+          <img src="public/images/baibhav_real.jpg" alt="Baibhav Dhamala — Student, Cricketer and Developer" class="hero-photo-img" loading="eager">
+          <div class="photo-floating-badge photo-badge-top">
+            <span>🏏</span>
+            <span>Sri Sri Academy Siliguri</span>
+          </div>
+          <div class="photo-floating-badge photo-badge-bottom">
+            <span>🏆</span>
+            <span>90% CBSE · Techzibit 1st</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       About & Academics Section
+       ======================================================================== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Academic Excellence</span>
+        <h2 class="section-title">Scholar, Athlete &amp; Builder</h2>
+        <p class="section-desc">A student at Sri Sri Academy Siliguri with foundational mentorship from Sankalp Study Circle, balancing academic distinction with competitive cricket and tech leadership.</p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Story / Bio Column -->
+        <div class="about-story">
+          <p>
+            I am <strong>Baibhav Dhamala</strong>, a secondary school top achiever from <strong>Siliguri, West Bengal</strong>. Having completed my <strong>CBSE Class X Board Examinations with a distinguished 90% score</strong> at <strong>Sri Sri Academy Siliguri</strong> with foundational preparation from <a href="https://www.sankalpstudycircles.com" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); text-decoration: underline;">Sankalp Study Circle</a>, I am currently pursuing <strong>Class 11 Science (PCM + Computer Science)</strong>.
+          </p>
+          <p>
+            I believe that true excellence comes from balance: maintaining rigorous academic focus in higher mathematics and physics, performing under pressure on the cricket field as an active player for Sri Sri Academy, and engineering practical AI systems that make an environmental impact.
+          </p>
+
+          <div class="about-highlight-box">
+            <strong>Key Milestones &amp; Certifications</strong>
+            • <strong>Intel &amp; CBSE Certified:</strong> Completed the prestigious <em>AI for Youth Program</em> (June 2025), architecting <strong>TrashTrack AI</strong> for automated waste sorting.<br>
+            • <strong>Techzibit 1.0 Gold:</strong> Won 1st Place at Sri Sri Academy's flagship tech exhibition.<br>
+            • <strong>ISRO Mission Workshop:</strong> Certified in national space science &amp; mission architectures by EsroMagica.
+          </div>
+
+          <p>
+            Together with my classmate and cricket teammate <strong>Prateek Mahato</strong>, I founded <strong>Dhamala Tech</strong> and operate <strong>Kalp Studio</strong> — helping local businesses establish high-converting, blazing-fast web presences.
+          </p>
+        </div>
+
+        <!-- Academic Credentials Card -->
+        <div class="glass-panel academic-card" id="academics">
+          <div class="academic-badge-wrap">
+            <span class="badge-stream">Class XI · PCM + Computer Science</span>
+            <span class="grade-year">Session 2025–26</span>
+          </div>
+
+          <div>
+            <h3 class="academic-title">Sri Sri Academy Siliguri</h3>
+            <p class="academic-sub">Class 10 CBSE Board Score: <strong>90% Distinction</strong></p>
+          </div>
+
+          <ul class="academic-list">
+            <li class="academic-list-item">
+              <span class="dot"></span>
+              <div>
+                <strong>School &amp; Foundation:</strong> Student of Sri Sri Academy Siliguri; foundational academic coaching at <a href="https://www.sankalpstudycircles.com/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan);">Sankalp Study Circle</a>.
+              </div>
+            </li>
+            <li class="academic-list-item">
+              <span class="dot"></span>
+              <div>
+                <strong>Class 10 CBSE Result:</strong> Scored <strong>90%</strong> in CBSE Class X Board Examinations, recognized among top academic achievers.
+              </div>
+            </li>
+            <li class="academic-list-item">
+              <span class="dot"></span>
+              <div>
+                <strong>Tech Exhibition Champion:</strong> Secured <strong>1st Place</strong> in School Tech Fest <em>Techzibit 1.0</em>.
+              </div>
+            </li>
+            <li class="academic-list-item">
+              <span class="dot"></span>
+              <div>
+                <strong>National Certifications:</strong> Certified in Intel-CBSE <em>AI for Youth</em> and <em>ISRO Mission Workshop</em>.
+              </div>
+            </li>
+          </ul>
+
+          <div class="learning-ticker">
+            <span class="learning-ticker-label">Current Curriculum Focus:</span>
+            <div class="learning-pills">
+              <span class="learn-pill">Higher Physics</span>
+              <span class="learn-pill">Calculus</span>
+              <span class="learn-pill">Physical Chemistry</span>
+              <span class="learn-pill">Computer Science (Python/C++)</span>
+              <span class="learn-pill">AI Model Architecture</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Flagship AI Platform & Company: Dhamala Tech
+       ======================================================================== -->
+  <section class="about-section" id="ventures" style="padding-top: 0;">
+    <div class="container">
+      <!-- Main Dhamala Tech Glass Panel -->
+      <div class="glass-panel" style="padding: clamp(28px, 4vw, 48px); background: linear-gradient(145deg, rgba(13, 19, 38, 0.9), rgba(7, 9, 14, 0.98)); border-color: rgba(0, 240, 255, 0.35); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7), 0 0 35px rgba(0, 240, 255, 0.12);">
+        
+        <!-- Header & Founder Attribution -->
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 24px; margin-bottom: 32px; border-bottom: 1px solid var(--border-subtle); padding-bottom: 24px;">
+          <div>
+            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+              <span class="section-tag" style="background: rgba(0, 240, 255, 0.12); border-color: rgba(0, 240, 255, 0.4); color: var(--accent-cyan);">Flagship AI Technology Company</span>
+              <span class="brand-badge" style="background: rgba(99, 102, 241, 0.18); border: 1px solid rgba(99, 102, 241, 0.4); color: #c7d2fe; padding: 4px 10px; border-radius: var(--radius-full); font-size: 11px; font-weight: 700;">BAIBHAV DHAMALA · SOLE FOUNDER</span>
+            </div>
+            <h2 style="font-size: clamp(28px, 3.6vw, 44px); margin: 4px 0 10px; font-family: var(--font-display); letter-spacing: -0.02em;">
+              Dhamala Tech <span class="gradient-text">AI Platform</span>
+            </h2>
+            <p style="color: var(--text-body); max-width: 740px; font-size: 15.5px; line-height: 1.6;">
+              <a href="https://dhamalatech.com" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); font-weight: 600; text-decoration: underline;">Dhamala Tech</a> is an artificial intelligence platform and technology company dedicated to building next-generation AI tools, developer APIs, and educational technology. Founded and led by Baibhav Dhamala.
+            </p>
+          </div>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="https://dhamalatech.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+              <span>Visit Dhamala Tech ↗</span>
+            </a>
+            <a href="https://chatx.dhamalatech.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="border-color: rgba(0, 240, 255, 0.4);">
+              <span>Open ChatX AI ↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Flagship Core Products -->
+        <div style="margin-bottom: 32px;">
+          <h3 style="font-size: 18px; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 0.08em; margin-bottom: 18px; display: flex; align-items: center; gap: 8px;">
+            <span>🚀 Flagship Core Products</span>
+          </h3>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+            
+            <!-- ChatX AI Workspace -->
+            <div class="info-card" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(0, 240, 255, 0.25); border-radius: var(--radius-sm); padding: 22px; position: relative;">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                  <span style="font-size: 26px;">⚡</span>
+                  <h4 style="font-size: 18px; margin: 0; color: #fff;">ChatX AI Workspace</h4>
+                </div>
+                <span style="font-family: var(--font-mono); font-size: 11px; color: var(--accent-cyan); background: rgba(0, 240, 255, 0.1); padding: 3px 8px; border-radius: 4px;">API v2 Live</span>
+              </div>
+              <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.6; margin-bottom: 12px;">
+                A fast, multi-model collaborative environment built for text generation, deep research, coding assistance, and advanced data analytics. In March 2026, launched <strong>ChatX API v2</strong>, bringing major upgrades to multi-step reasoning, multi-language processing, and real-time codebase debugging.
+              </p>
+              <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px;">
+                <span class="project-tag">Multi-Model AI</span>
+                <span class="project-tag">ChatX API v2</span>
+                <span class="project-tag">Code Debugging</span>
+                <span class="project-tag">Data Analytics</span>
+              </div>
+              <a href="https://chatx.dhamalatech.com" target="_blank" rel="noopener noreferrer" style="font-family: var(--font-mono); font-size: 12.5px; color: var(--accent-cyan); font-weight: 600; display: inline-flex; align-items: center; gap: 4px;">
+                Launch ChatX Workspace ↗
+              </a>
+            </div>
+
+            <!-- TutorX AI Platform -->
+            <div class="info-card" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: var(--radius-sm); padding: 22px; position: relative;">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                  <span style="font-size: 26px;">📚</span>
+                  <h4 style="font-size: 18px; margin: 0; color: #fff;">TutorX AI Platform</h4>
+                </div>
+                <span style="font-family: var(--font-mono); font-size: 11px; color: #34d399; background: rgba(16, 185, 129, 0.1); padding: 3px 8px; border-radius: 4px;">Class 2–12</span>
+              </div>
+              <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.6; margin-bottom: 12px;">
+                An adaptive, personalized learning platform targeted toward K-12 students (Class 2 to 12) and educators. Features high-quality animated video lessons, automated quizzes, 24/7 AI doubt-solving rooms, and real-time student mastery tracking.
+              </p>
+              <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px;">
+                <span class="project-tag">K-12 EdTech</span>
+                <span class="project-tag">AI Doubt Solving</span>
+                <span class="project-tag">Animated Lessons</span>
+                <span class="project-tag">Adaptive Mastery</span>
+              </div>
+              <a href="https://dhamalatech.com/tutorx" target="_blank" rel="noopener noreferrer" style="font-family: var(--font-mono); font-size: 12.5px; color: #34d399; font-weight: 600; display: inline-flex; align-items: center; gap: 4px;">
+                Explore TutorX Education ↗
+              </a>
+            </div>
+
+            <!-- SanketX HCI Hardware-Software -->
+            <div class="info-card" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(168, 85, 247, 0.25); border-radius: var(--radius-sm); padding: 22px; position: relative;">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                  <span style="font-size: 26px;">🔮</span>
+                  <h4 style="font-size: 18px; margin: 0; color: #fff;">SanketX HCI System</h4>
+                </div>
+                <span style="font-family: var(--font-mono); font-size: 11px; color: #c084fc; background: rgba(168, 85, 247, 0.1); padding: 3px 8px; border-radius: 4px;">Unveiled 2026</span>
+              </div>
+              <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.6; margin-bottom: 12px;">
+                A hardware-software combination redefining human-computer interaction using advanced voice control and real-time spatial gesture tracking for hands-free and immersive interfaces.
+              </p>
+              <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px;">
+                <span class="project-tag">Voice Control</span>
+                <span class="project-tag">Gesture Tracking</span>
+                <span class="project-tag">Spatial HCI</span>
+                <span class="project-tag">Hardware-Software</span>
+              </div>
+              <span style="font-family: var(--font-mono); font-size: 12.5px; color: #c084fc; font-weight: 600;">
+                Next-Gen Interaction Pipeline
+              </span>
+            </div>
+
+            <!-- X2 VELZARIS — Independent AI Model & Intelligence Infrastructure Project -->
+            <div class="info-card" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(0, 240, 255, 0.4); border-radius: var(--radius-sm); padding: 22px; position: relative;">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                  <span style="font-size: 26px;">🧠</span>
+                  <div>
+                    <h4 style="font-size: 18px; margin: 0; color: #fff;">X2 VELZARIS</h4>
+                    <span style="font-size: 11.5px; color: var(--text-muted); font-family: var(--font-mono);">Independent AI Model &amp; Intelligence Infrastructure Project</span>
+                  </div>
+                </div>
+                <span style="font-family: var(--font-mono); font-size: 11px; color: var(--accent-cyan); background: rgba(0, 240, 255, 0.1); padding: 3px 8px; border-radius: 4px;">Active R&amp;D Baseline</span>
+              </div>
+              <p style="font-size: 13.5px; color: var(--text-body); line-height: 1.6; margin-bottom: 12px;">
+                An independently engineered AI model and intelligence infrastructure project by Dhamala Tech, built as the model foundation for the next generation of <strong>ChatX</strong> and <strong>Saarthi AI</strong>. Features a decoder-only Transformer with <strong>GQA, RMSNorm, RoPE, and SwiGLU</strong>, paired with a custom local inference runtime and deterministic data curation pipeline.
+              </p>
+
+              <!-- Architecture Pipeline -->
+              <div style="padding: 10px 14px; background: rgba(0,0,0,0.5); border-radius: 4px; border: 1px solid var(--border-subtle); margin-bottom: 12px; font-family: var(--font-mono); font-size: 11px; color: var(--accent-cyan); overflow-x: auto; white-space: nowrap;">
+                VELZARIS MODEL → VELZARIS RUNTIME / API → CHATX MODEL PROVIDER → CHATX → DHAMALA TECH API → SAARTHI AI → TOOLS • APPS • ACTIONS
+              </div>
+
+              <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px;">
+                <span class="project-tag">~8M Baseline</span>
+                <span class="project-tag">16K Tokenizer</span>
+                <span class="project-tag">2048 Context</span>
+                <span class="project-tag">GQA &amp; RoPE</span>
+                <span class="project-tag">SwiGLU</span>
+                <span class="project-tag">Apple Silicon CPU</span>
+                <span class="project-tag">ChatX &amp; Saarthi</span>
+              </div>
+
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted);">
+                  Scaling Ladder: ~8M → 100M+ → 500M+ → 1B–3B → 7B+
+                </span>
+                <button type="button" class="inspect-btn" data-project="x2velzaris" style="background: none; border: none; font-family: var(--font-mono); font-size: 12.5px; color: var(--accent-cyan); font-weight: 600; cursor: pointer; padding: 0;">
+                  Inspect Architecture →
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Developer Hub & High-Performance Architecture -->
+        <div style="padding: 24px; background: rgba(0, 0, 0, 0.4); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); margin-bottom: 32px;">
+          <h3 style="font-size: 16px; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 0.08em; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+            <span>💻 Dhamala Tech Developer Hub &amp; Architecture</span>
+          </h3>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px;">
+            <div>
+              <strong style="color: #fff; font-size: 14.5px; display: block; margin-bottom: 6px;">API Capabilities</strong>
+              <p style="font-size: 13px; color: var(--text-muted); line-height: 1.55;">
+                Integrates real-time vision, automated speech recognition (ASR), multi-modal inputs, text synthesis, and predictive analytics forecasting into developer applications.
+              </p>
+            </div>
+            <div>
+              <strong style="color: #fff; font-size: 14.5px; display: block; margin-bottom: 6px;">Enterprise Performance</strong>
+              <p style="font-size: 13px; color: var(--text-muted); line-height: 1.55;">
+                Operates on a highly scalable, distributed framework delivering sub-second inference speeds engineered for live enterprise and high-throughput deployments.
+              </p>
+            </div>
+            <div>
+              <strong style="color: #fff; font-size: 14.5px; display: block; margin-bottom: 6px;">Security &amp; Infrastructure</strong>
+              <p style="font-size: 13px; color: var(--text-muted); line-height: 1.55;">
+                Outfitted with SOC2-ready cloud infrastructure alongside comprehensive end-to-end data encryption across all API request channels.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2026 Timeline & Releases -->
+        <div style="margin-bottom: 32px;">
+          <h3 style="font-size: 16px; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 0.08em; margin-bottom: 14px; display: flex; align-items: center; gap: 8px;">
+            <span>📅 Latest 2026 Timeline &amp; Product Releases</span>
+          </h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px;">
+            <div style="padding: 14px 18px; background: rgba(255,255,255,0.02); border-left: 3px solid var(--accent-cyan); border-radius: 4px;">
+              <span style="font-family: var(--font-mono); font-size: 11px; color: var(--accent-cyan); font-weight: 700;">FEBRUARY 2026</span>
+              <p style="font-size: 13px; color: var(--text-body); margin: 4px 0 0;">Launched public preview of ChatX alongside official Dhamala Tech Developer Documentation.</p>
+            </div>
+            <div style="padding: 14px 18px; background: rgba(255,255,255,0.02); border-left: 3px solid #a855f7; border-radius: 4px;">
+              <span style="font-family: var(--font-mono); font-size: 11px; color: #c084fc; font-weight: 700;">FEBRUARY 2026</span>
+              <p style="font-size: 13px; color: var(--text-body); margin: 4px 0 0;">Unveiled SanketX, redefining human-computer interaction through voice control and real-time gesture tracking.</p>
+            </div>
+            <div style="padding: 14px 18px; background: rgba(255,255,255,0.02); border-left: 3px solid #10b981; border-radius: 4px;">
+              <span style="font-family: var(--font-mono); font-size: 11px; color: #34d399; font-weight: 700;">MARCH 2026</span>
+              <p style="font-size: 13px; color: var(--text-body); margin: 4px 0 0;">Deployed ChatX Model Architecture Update, vastly scaling multi-modal vision-language-audio systems.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Separate Digital Agency Venture: Kalp Studio -->
+        <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(15, 20, 36, 0.8)); border: 1px solid rgba(99, 102, 241, 0.35); border-radius: var(--radius-sm); padding: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px;">
+          <div>
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+              <span class="project-category-badge" style="position: static; background: rgba(99, 102, 241, 0.2); color: #a5b4fc; border: 1px solid rgba(99, 102, 241, 0.4);">Digital Agency Venture</span>
+              <span style="font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);">Founded by Baibhav Dhamala</span>
+            </div>
+            <h4 style="font-size: 20px; color: #fff; margin: 0 0 6px;">Kalp Studio — Modern Product &amp; Web Design</h4>
+            <p style="font-size: 13.5px; color: var(--text-body); max-width: 680px; line-height: 1.55; margin: 0;">
+              Operating in partnership as a specialized digital studio building fast, responsive, and conversion-optimized websites tailored to help small-to-medium businesses sell, manage bookings, and expand without agency overhead.
+            </p>
+          </div>
+          <a href="https://kalpstudio.dhamalatech.com/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="border-color: rgba(99, 102, 241, 0.5);">
+            <span>Visit Kalp Studio ↗</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Cricket & Athletics Section
+       ======================================================================== -->
+  <section class="about-section" id="cricket" style="padding-top: 20px;">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag" style="background: rgba(255, 51, 102, 0.1); border-color: rgba(255, 51, 102, 0.35); color: #ff6b8b;">Student-Athlete Profile</span>
+        <h2 class="section-title">Competitive School Cricket</h2>
+        <p class="section-desc">Active cricketer representing Sri Sri Academy Siliguri across local tournaments, recorded on CricHeroes.</p>
+      </div>
+
+      <div class="glass-panel" style="padding: 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; align-items: center;">
+        <div>
+          <span style="font-family: var(--font-mono); font-size: 12px; color: var(--accent-coral); font-weight: 600;">CRICHEROES VERIFIED ATHLETE</span>
+          <h3 style="font-size: 24px; margin: 6px 0 10px;">Sri Sri Academy Siliguri Team</h3>
+          <p style="color: var(--text-body); font-size: 14.5px; line-height: 1.6; margin-bottom: 16px;">
+            Actively playing and representing Sri Sri Academy in competitive tournaments including the <strong>19th Surendra Agarwal Memorial Inter-School Cricket Tournament</strong> and the <strong>Doon Premier League</strong>.
+          </p>
+          <a href="https://cricheroes.com/player-profile/35330356/baibhav-dhamala-/matches" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="border-color: rgba(255, 51, 102, 0.4);">
+            <span>View CricHeroes Match Stats ↗</span>
+          </a>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+          <div style="padding: 16px; background: rgba(255,255,255,0.03); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+            <span style="font-size: 26px;">🏏</span>
+            <h4 style="font-size: 15px; margin: 4px 0;">School Cricket Team</h4>
+            <p style="font-size: 12.5px; color: var(--text-muted);">Representing Sri Sri Academy Siliguri</p>
+          </div>
+          <div style="padding: 16px; background: rgba(255,255,255,0.03); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+            <span style="font-size: 26px;">⚡</span>
+            <h4 style="font-size: 15px; margin: 4px 0;">Tournaments</h4>
+            <p style="font-size: 12.5px; color: var(--text-muted);">Surendra Agarwal Memorial &amp; Doon League</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Skills & Arsenal Section
+       ======================================================================== -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Technical Arsenal</span>
+        <h2 class="section-title">Languages, Frameworks &amp; Concepts</h2>
+        <p class="section-desc">Technologies and scientific concepts I work with daily to engineer reliable software.</p>
+      </div>
+
+      <div class="skills-filter">
+        <button type="button" class="filter-btn is-active" data-filter="all">All Skills</button>
+        <button type="button" class="filter-btn" data-filter="languages">Languages</button>
+        <button type="button" class="filter-btn" data-filter="web">Web &amp; Frameworks</button>
+        <button type="button" class="filter-btn" data-filter="tools">Tools &amp; Systems</button>
+        <button type="button" class="filter-btn" data-filter="stem">STEM &amp; Science</button>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Python -->
+        <div class="glass-panel skill-card" data-category="languages">
+          <div class="skill-card-top">
+            <div class="skill-icon">🐍</div>
+            <span class="skill-level-badge">Advanced</span>
+          </div>
+          <h3 class="skill-name">Python &amp; AI</h3>
+          <p class="skill-desc">Applied in TrashTrack AI, automated data workflows, computer vision models, and Intel-CBSE AI for Youth.</p>
+          <div class="skill-meter"><div class="skill-progress" style="width: 92%;"></div></div>
+        </div>
+
+        <!-- C++ -->
+        <div class="glass-panel skill-card" data-category="languages">
+          <div class="skill-card-top">
+            <div class="skill-icon">⚡</div>
+            <span class="skill-level-badge">Proficient</span>
+          </div>
+          <h3 class="skill-name">C++</h3>
+          <p class="skill-desc">Object-oriented programming, data structures (trees, graphs, heaps), and competitive programming.</p>
+          <div class="skill-meter"><div class="skill-progress" style="width: 85%;"></div></div>
+        </div>
+
+        <!-- JavaScript / TypeScript -->
+        <div class="glass-panel skill-card" data-category="languages">
+          <div class="skill-card-top">
+            <div class="skill-icon">📜</div>
+            <span class="skill-level-badge">Advanced</span>
+          </div>
+          <h3 class="skill-name">JavaScript &amp; TS</h3>
+          <p class="skill-desc">Core language for Kalp Studio client platforms, modern ES6+ asynchronous workflows, and interactive web UIs.</p>
+          <div class="skill-meter"><div class="skill-progress" style="width: 90%;"></div></div>
+        </div>
+
+        <!-- React.js -->
+        <div class="glass-panel skill-card" data-category="web">
+          <div class="skill-card-top">
+            <div class="skill-icon">⚛️</div>
+            <span class="skill-level-badge">Advanced</span>
+          </div>
+          <h3 class="skill-name">React &amp; Next.js</h3>
+          <p class="skill-desc">Component architecture, custom hooks, and server-side rendering utilized in Kalp Studio client websites.</p>
+          <div class="skill-meter"><div class="skill-progress" style="width: 88%;"></div></div>
+        </div>
+
+        <!-- HTML5 / Modern CSS -->
+        <div class="glass-panel skill-card" data-category="web">
+          <div class="skill-card-top">
+            <div class="skill-icon">🎨</div>
+            <span class="skill-level-badge">Mastery</span>
+          </div>
+          <h3 class="skill-name">HTML5 &amp; Modern CSS</h3>
+          <p class="skill-desc">High-conversion responsive design, micro-animations, glassmorphic UI polish, and cross-browser precision.</p>
+          <div class="skill-meter"><div class="skill-progress" style="width: 95%;"></div></div>
+        </div>
+
+        <!-- Git & GitHub -->
+        <div class="glass-panel skill-card" data-category="tools">
+          <div class="skill-card-top">
+            <div class="skill-icon">🐙</div>
+            <span class="skill-level-badge">Advanced</span>
+          </div>
+          <h3 class="skill-name">Git &amp; GitHub</h3>
+          <p class="skill-desc">Branching workflows, semantic commit histories, pull request reviews, and open-source project management.</p>
+          <div class="skill-meter"><div class="skill-progress" style="width: 88%;"></div></div>
+        </div>
+
+        <!-- Linux & Bash -->
+        <div class="glass-panel skill-card" data-category="tools">
+          <div class="skill-card-top">
+            <div class="skill-icon">🐧</div>
+            <span class="skill-level-badge">Proficient</span>
+          </div>
+          <h3 class="skill-name">Linux &amp; Shell</h3>
+          <p class="skill-desc">Command-line proficiency, shell scripting, environment configuration, package management, and SSH.</p>
+          <div class="skill-meter"><div class="skill-progress" style="width: 82%;"></div></div>
+        </div>
+
+        <!-- Calculus & Math -->
+        <div class="glass-panel skill-card" data-category="stem">
+          <div class="skill-card-top">
+            <div class="skill-icon">📐</div>
+            <span class="skill-level-badge">90% Boards</span>
+          </div>
+          <h3 class="skill-name">Calculus &amp; Mathematics</h3>
+          <p class="skill-desc">Higher secondary differential calculus, coordinate geometry, matrices, and vectors applied to computational modeling.</p>
+          <div class="skill-meter"><div class="skill-progress" style="width: 90%;"></div></div>
+        </div>
+
+        <!-- Physics Simulation -->
+        <div class="glass-panel skill-card" data-category="stem">
+          <div class="skill-card-top">
+            <div class="skill-icon">🪐</div>
+            <span class="skill-level-badge">ISRO Certified</span>
+          </div>
+          <h3 class="skill-name">Space &amp; Physics Sim</h3>
+          <p class="skill-desc">Kinematics, Newton's laws, N-body gravitation, and orbital mechanics inspired by the ISRO Mission Workshop.</p>
+          <div class="skill-meter"><div class="skill-progress" style="width: 84%;"></div></div>
+        </div>
+
+        <!-- Arduino & IoT -->
+        <div class="glass-panel skill-card" data-category="tools">
+          <div class="skill-card-top">
+            <div class="skill-icon">🤖</div>
+            <span class="skill-level-badge">Techzibit 1st</span>
+          </div>
+          <h3 class="skill-name">Robotics &amp; IoT</h3>
+          <p class="skill-desc">ESP32 microcontrollers, Arduino C++, sensor interfacing, and telemetry protocols built for Techzibit 1.0.</p>
+          <div class="skill-meter"><div class="skill-progress" style="width: 88%;"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Featured Projects Section
+       ======================================================================== -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Featured Portfolio</span>
+        <h2 class="section-title">Ventures &amp; Engineering Projects</h2>
+        <p class="section-desc">Real-world AI systems, client websites via Kalp Studio, competition winners, and STEM simulations.</p>
+      </div>
+
+      <div class="projects-filter">
+        <button type="button" class="filter-btn is-active" data-filter="all">All Projects</button>
+        <button type="button" class="filter-btn" data-filter="ai">AI &amp; CS</button>
+        <button type="button" class="filter-btn" data-filter="fullstack">Ventures &amp; Web</button>
+        <button type="button" class="filter-btn" data-filter="iot">Hardware &amp; IoT</button>
+        <button type="button" class="filter-btn" data-filter="stem">Science &amp; Space</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Premier Project: X2 VELZARIS -->
+        <div class="glass-panel project-card" data-category="ai">
+          <div class="project-visual">
+            <span class="project-category-badge" style="background: rgba(0, 240, 255, 0.25); color: var(--accent-cyan); border-color: rgba(0, 240, 255, 0.5);">Proprietary AI Model &amp; Intelligence Infrastructure</span>
+            <div class="project-visual-graphic" style="background: radial-gradient(circle at 50% 50%, rgba(0, 240, 255, 0.35), transparent 70%); display: flex; align-items: center; justify-content: center; font-size: 54px;">
+              🧠
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">X2 VELZARIS</h3>
+            <p class="project-summary">An independently engineered Transformer-based AI model and runtime built as the intelligence foundation for ChatX and Saarthi AI. Includes custom inference infrastructure, tokenizer, deterministic data pipeline, model-provider integration, evaluation systems and a roadmap for scaling from millions to billions of parameters.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">PyTorch</span>
+              <span class="project-tag">Transformers</span>
+              <span class="project-tag">LLM</span>
+              <span class="project-tag">AI Infrastructure</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-links">
+                <span style="font-family: var(--font-mono); font-size: 11.5px; color: var(--accent-cyan);">~8M Baseline Active</span>
+              </div>
+              <button type="button" class="inspect-btn" data-project="x2velzaris">View Project →</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project: ChatX AI Workspace -->
+        <div class="glass-panel project-card" data-category="ai">
+          <div class="project-visual">
+            <span class="project-category-badge" style="background: rgba(0, 240, 255, 0.2); color: var(--accent-cyan); border-color: rgba(0, 240, 255, 0.4);">Dhamala Tech Flagship</span>
+            <div class="project-visual-graphic" style="background: radial-gradient(circle at 50% 50%, rgba(0, 240, 255, 0.3), transparent 70%); display: flex; align-items: center; justify-content: center; font-size: 54px;">
+              ⚡
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">ChatX AI Workspace — Multi-Model Platform</h3>
+            <p class="project-summary">Fast, multi-model collaborative environment for research, text generation, and codebase debugging with ChatX API v2.</p>
+            <div class="project-tags">
+              <span class="project-tag">Dhamala Tech</span>
+              <span class="project-tag">ChatX API v2</span>
+              <span class="project-tag">Multi-Model AI</span>
+              <span class="project-tag">Sub-Second</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://chatx.dhamalatech.com" target="_blank" rel="noopener noreferrer" class="link-btn">Launch App ↗</a>
+              </div>
+              <button type="button" class="inspect-btn" data-project="chatx">Case Study →</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project: TutorX AI Platform -->
+        <div class="glass-panel project-card" data-category="ai">
+          <div class="project-visual">
+            <span class="project-category-badge" style="background: rgba(16, 185, 129, 0.2); color: #34d399; border-color: rgba(16, 185, 129, 0.4);">EdTech AI</span>
+            <div class="project-visual-graphic" style="background: radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.3), transparent 70%); display: flex; align-items: center; justify-content: center; font-size: 54px;">
+              📚
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">TutorX AI — Adaptive K-12 Learning</h3>
+            <p class="project-summary">Adaptive learning platform with animated lessons, automated quizzes, and 24/7 AI doubt-solving rooms for Class 2 to 12 students.</p>
+            <div class="project-tags">
+              <span class="project-tag">EdTech</span>
+              <span class="project-tag">Adaptive Learning</span>
+              <span class="project-tag">Class 2–12</span>
+              <span class="project-tag">Dhamala Tech</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://dhamalatech.com/tutorx" target="_blank" rel="noopener noreferrer" class="link-btn">Explore ↗</a>
+              </div>
+              <button type="button" class="inspect-btn" data-project="tutorx">Case Study →</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project: SanketX HCI -->
+        <div class="glass-panel project-card" data-category="iot">
+          <div class="project-visual">
+            <span class="project-category-badge" style="background: rgba(168, 85, 247, 0.2); color: #c084fc; border-color: rgba(168, 85, 247, 0.4);">Next-Gen HCI</span>
+            <div class="project-visual-graphic" style="background: radial-gradient(circle at 50% 50%, rgba(168, 85, 247, 0.3), transparent 70%); display: flex; align-items: center; justify-content: center; font-size: 54px;">
+              🔮
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">SanketX — Voice &amp; Gesture Tracking HCI</h3>
+            <p class="project-summary">Hardware-software system redefining human-computer interaction using advanced voice control and real-time computer vision gesture tracking.</p>
+            <div class="project-tags">
+              <span class="project-tag">HCI</span>
+              <span class="project-tag">Voice Control</span>
+              <span class="project-tag">Gesture Tracking</span>
+              <span class="project-tag">Hardware-Software</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://dhamalatech.com" target="_blank" rel="noopener noreferrer" class="link-btn">Dhamala Tech ↗</a>
+              </div>
+              <button type="button" class="inspect-btn" data-project="sanketx">Case Study →</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 1: TrashTrack AI -->
+        <div class="glass-panel project-card" data-category="ai">
+          <div class="project-visual">
+            <span class="project-category-badge">Intel &amp; CBSE Certified</span>
+            <div class="project-visual-graphic" style="background: radial-gradient(circle at 50% 50%, rgba(0, 240, 255, 0.25), transparent 70%); display: flex; align-items: center; justify-content: center; font-size: 54px;">
+              ♻️
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">TrashTrack AI — Waste Classifier</h3>
+            <p class="project-summary">Computer vision AI application developed during the Intel-CBSE AI for Youth Program for automated municipal waste classification.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Computer Vision</span>
+              <span class="project-tag">TensorFlow</span>
+              <span class="project-tag">Intel AI for Youth</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-btn">Code</a>
+              </div>
+              <button type="button" class="inspect-btn" data-project="trashtrackai">Case Study →</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Kalp Studio -->
+        <div class="glass-panel project-card" data-category="fullstack">
+          <div class="project-visual">
+            <span class="project-category-badge">Dhamala Tech Venture</span>
+            <div class="project-visual-graphic" style="background: radial-gradient(circle at 50% 50%, rgba(99, 102, 241, 0.25), transparent 70%); display: flex; align-items: center; justify-content: center; font-size: 54px;">
+              🚀
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Kalp Studio — Digital Product Agency</h3>
+            <p class="project-summary">Modern digital design agency co-founded with Prateek Mahato, building fast, conversion-optimized websites for expanding businesses.</p>
+            <div class="project-tags">
+              <span class="project-tag">Next.js</span>
+              <span class="project-tag">TypeScript</span>
+              <span class="project-tag">Tailwind CSS</span>
+              <span class="project-tag">Dhamala Tech</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://kalpstudio.dhamalatech.com" target="_blank" rel="noopener noreferrer" class="link-btn">Live Site ↗</a>
+              </div>
+              <button type="button" class="inspect-btn" data-project="kalpstudio">Case Study →</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Techzibit 1.0 IoT -->
+        <div class="glass-panel project-card" data-category="iot">
+          <div class="project-visual">
+            <span class="project-category-badge">1st Place Techzibit 1.0</span>
+            <div class="project-visual-graphic" style="background: radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.25), transparent 70%); display: flex; align-items: center; justify-content: center; font-size: 54px;">
+              🏆
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Smart Campus IoT Telemetry Array</h3>
+            <p class="project-summary">1st Place winning IoT sensor station capturing real-time environmental metrics (PM2.5, carbon, acoustic levels) at Sri Sri Academy Techzibit 1.0.</p>
+            <div class="project-tags">
+              <span class="project-tag">C++</span>
+              <span class="project-tag">Arduino/ESP32</span>
+              <span class="project-tag">IoT Telemetry</span>
+              <span class="project-tag">Award Winner</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-btn">Code</a>
+              </div>
+              <button type="button" class="inspect-btn" data-project="techzibit">Case Study →</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: QuantumOrbit -->
+        <div class="glass-panel project-card" data-category="stem">
+          <div class="project-visual">
+            <span class="project-category-badge">ISRO Mission Inspired</span>
+            <div class="project-visual-graphic" style="background: radial-gradient(circle at 50% 50%, rgba(168, 85, 247, 0.25), transparent 70%); display: flex; align-items: center; justify-content: center; font-size: 54px;">
+              🪐
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">QuantumOrbit — Orbital Mechanics Sim</h3>
+            <p class="project-summary">Real-time gravitational simulator calculating Keplerian orbits and Hohmann transfers using Runge-Kutta 4th Order numerical integration.</p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Canvas API</span>
+              <span class="project-tag">ISRO Workshop</span>
+              <span class="project-tag">Physics</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-btn">Code</a>
+              </div>
+              <button type="button" class="inspect-btn" data-project="quantumorbit">Case Study →</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: Cricket Analytics -->
+        <div class="glass-panel project-card" data-category="fullstack">
+          <div class="project-visual">
+            <span class="project-category-badge">Sports Analytics</span>
+            <div class="project-visual-graphic" style="background: radial-gradient(circle at 50% 50%, rgba(255, 51, 102, 0.25), transparent 70%); display: flex; align-items: center; justify-content: center; font-size: 54px;">
+              🏏
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Cricket Performance Analytics Hub</h3>
+            <p class="project-summary">Statistical analysis dashboard aggregating match telemetry, batting strike rates, and bowling distributions for Sri Sri Academy's cricket squad.</p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Chart.js</span>
+              <span class="project-tag">CricHeroes API</span>
+              <span class="project-tag">Analytics</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://cricheroes.com/player-profile/35330356/baibhav-dhamala-/matches" target="_blank" rel="noopener noreferrer" class="link-btn">CricHeroes ↗</a>
+              </div>
+              <button type="button" class="inspect-btn" data-project="cricheroes">Case Study →</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: AlgoVision -->
+        <div class="glass-panel project-card" data-category="ai">
+          <div class="project-visual">
+            <span class="project-category-badge">CS &amp; Algorithms</span>
+            <div class="project-visual-graphic" style="background: radial-gradient(circle at 50% 50%, rgba(0, 240, 255, 0.25), transparent 70%); display: flex; align-items: center; justify-content: center; font-size: 54px;">
+              ⚡
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">AlgoVision — Algorithm Visualizer</h3>
+            <p class="project-summary">Interactive step-by-step visual exploration of Dijkstra, A*, QuickSort, and Graph traversals with real-time complexity analytics.</p>
+            <div class="project-tags">
+              <span class="project-tag">TypeScript</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">Data Structures</span>
+              <span class="project-tag">Canvas</span>
+            </div>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-btn">Code</a>
+              </div>
+              <button type="button" class="inspect-btn" data-project="algovision">Case Study →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Journey & Education Timeline
+       ======================================================================== -->
+  <section class="journey-section" id="journey">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Chronological Trajectory</span>
+        <h2 class="section-title">The Student Journey</h2>
+        <p class="section-desc">Academic excellence at Sri Sri Academy, foundational mentorship at Sankalp Study Circle, athletics, and startup milestones.</p>
+      </div>
+
+      <div class="timeline-wrap">
+        <!-- 2021 -->
+        <div class="timeline-item">
+          <div class="timeline-node"></div>
+          <div class="glass-panel timeline-content">
+            <span class="timeline-year">2021 · Middle School</span>
+            <h3 class="timeline-title">The Coding Spark</h3>
+            <p class="timeline-desc">Discovered Python and algorithmic logic. Started building text-based terminal software and foundational mathematics problem solving.</p>
+          </div>
+        </div>
+
+        <!-- 2022 -->
+        <div class="timeline-item">
+          <div class="timeline-node"></div>
+          <div class="glass-panel timeline-content">
+            <span class="timeline-year">2022 · Foundations</span>
+            <h3 class="timeline-title">Web Dev &amp; Competitive Cricket</h3>
+            <p class="timeline-desc">Learned modern web programming while representing Sri Sri Academy Siliguri in inter-school cricket tournaments.</p>
+          </div>
+        </div>
+
+        <!-- June 2025: Sankalp Study Circle -->
+        <div class="timeline-item">
+          <div class="timeline-node"></div>
+          <div class="glass-panel timeline-content">
+            <span class="timeline-year">June 2025 · Foundational Acceleration</span>
+            <h3 class="timeline-title">Joined Sankalp Study Circle</h3>
+            <p class="timeline-desc">Joined Sankalp Study Circle in Siliguri in June 2025 for intensive academic mastery and secondary CBSE foundational studies, paving the path for board excellence.</p>
+          </div>
+        </div>
+
+        <!-- 2025–2026: 90% CBSE Board & Techzibit 1.0 -->
+        <div class="timeline-item">
+          <div class="timeline-node"></div>
+          <div class="glass-panel timeline-content">
+            <span class="timeline-year">2025–2026 · Board Distinction &amp; Awards</span>
+            <h3 class="timeline-title">90% CBSE Board &amp; Techzibit 1.0 Gold</h3>
+            <p class="timeline-desc">Achieved an outstanding <strong>90% in CBSE Class 10 Board Examinations</strong> at Sri Sri Academy Siliguri after disciplined study at Sankalp Study Circle. Also won <strong>1st Place</strong> at Techzibit 1.0 and completed the Intel-CBSE AI for Youth program.</p>
+          </div>
+        </div>
+
+        <!-- Present: Class 11 Science & X2 VELZARIS -->
+        <div class="timeline-item">
+          <div class="timeline-node"></div>
+          <div class="glass-panel timeline-content">
+            <span class="timeline-year">Present · Class 11 Science &amp; AI Systems</span>
+            <h3 class="timeline-title">Class 11 Science &amp; X2 VELZARIS</h3>
+            <p class="timeline-desc">Pursuing Class 11 Science (PCM + Computer Science) at Sri Sri Academy Siliguri. Sole Founder of Dhamala Tech, actively architecting <strong>X2 VELZARIS</strong> — an independent AI model &amp; intelligence infrastructure project featuring a custom decoder-only Transformer runtime and deterministic data pipeline — alongside scaling ChatX AI Workspace and TutorX.</p>
+          </div>
+        </div>
+
+        <!-- Future Horizon -->
+        <div class="timeline-item">
+          <div class="timeline-node"></div>
+          <div class="glass-panel timeline-content">
+            <span class="timeline-year">Future Horizon</span>
+            <h3 class="timeline-title">Next-Gen AI Deployment &amp; Collegiate Engineering</h3>
+            <p class="timeline-desc">Scaling Dhamala Tech's AI models, deploying advanced developer APIs, and preparing for collegiate Computer Science &amp; Engineering undergraduate programs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Contact Section
+       ======================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Let's Connect &amp; Collaborate</h2>
+        <p class="section-desc">Open for web projects via Kalp Studio, hackathon collaborations, student tech initiatives, and cricket matches.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Channels List -->
+        <div class="contact-info-wrap">
+          <ul class="contact-channel-list">
+            <li class="channel-item">
+              <div class="channel-icon">✉️</div>
+              <div class="channel-text">
+                <span class="channel-label">Email Address</span>
+                <a href="mailto:baibhav@dhamalatech.com" class="channel-value">baibhav@dhamalatech.com</a>
+              </div>
+            </li>
+            <li class="channel-item">
+              <div class="channel-icon">🚀</div>
+              <div class="channel-text">
+                <span class="channel-label">Kalp Studio (Dhamala Tech)</span>
+                <a href="https://kalpstudio.dhamalatech.com/" target="_blank" rel="noopener noreferrer" class="channel-value">kalpstudio.dhamalatech.com ↗</a>
+              </div>
+            </li>
+            <li class="channel-item">
+              <div class="channel-icon">🏏</div>
+              <div class="channel-text">
+                <span class="channel-label">CricHeroes Player Profile</span>
+                <a href="https://cricheroes.com/player-profile/35330356/baibhav-dhamala-/matches" target="_blank" rel="noopener noreferrer" class="channel-value">cricheroes.com/baibhav-dhamala- ↗</a>
+              </div>
+            </li>
+            <li class="channel-item">
+              <div class="channel-icon">📘</div>
+              <div class="channel-text">
+                <span class="channel-label">Facebook Profile</span>
+                <a href="https://www.facebook.com/baibhav.dhamala.1/" target="_blank" rel="noopener noreferrer" class="channel-value">facebook.com/baibhav.dhamala.1 ↗</a>
+              </div>
+            </li>
+            <li class="channel-item">
+              <div class="channel-icon">📍</div>
+              <div class="channel-text">
+                <span class="channel-label">Location &amp; Institution</span>
+                <span class="channel-value">Siliguri, West Bengal · Sri Sri Academy</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="glass-panel contact-form-panel">
+          <form id="contactForm" class="form-group-wrap">
+            <div class="form-field">
+              <label for="userName">Your Name</label>
+              <input type="text" id="userName" placeholder="e.g. Alex Sharma" required>
+            </div>
+            <div class="form-field">
+              <label for="userEmail">Your Email</label>
+              <input type="email" id="userEmail" placeholder="alex@example.com" required>
+            </div>
+            <div class="form-field">
+              <label for="userMsg">Message / Inquiry</label>
+              <textarea id="userMsg" placeholder="Hi Baibhav, would love to discuss a project with Kalp Studio, cricket, or STEM..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="align-self: flex-start;">Send Message</button>
+            <div class="form-alert" id="formAlert">
+              ✓ Thank you! Your message has been received. Baibhav will get back to you soon.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span>BAIBHAV<span style="color: var(--accent-cyan);">.</span>DEV</span>
+      </div>
+      <p class="footer-text">
+        &copy; 2026 Baibhav Dhamala · Sri Sri Academy Siliguri · Dhamala Tech. All rights reserved.
+      </p>
+      <div class="footer-socials">
+        <a href="https://kalpstudio.dhamalatech.com" target="_blank" rel="noopener noreferrer" class="social-icon-link">Kalp Studio</a>
+        <a href="https://cricheroes.com/player-profile/35330356/baibhav-dhamala-/matches" target="_blank" rel="noopener noreferrer" class="social-icon-link">CricHeroes</a>
+        <a href="https://www.facebook.com/baibhav.dhamala.1/" target="_blank" rel="noopener noreferrer" class="social-icon-link">Facebook</a>
+        <a href="#hero" class="social-icon-link" style="color: var(--accent-cyan);">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       FLOATING "HEAR ABOUT ME" BUTTON (BOTTOM-RIGHT CORNER)
+       ======================================================================== -->
+  <button type="button" class="clone-trigger-btn" id="cloneTriggerBtn" title="Launch Interactive Blue Hologram Clone Experience">
+    <div class="sound-bars">
+      <span class="sound-bar"></span>
+      <span class="sound-bar"></span>
+      <span class="sound-bar"></span>
+      <span class="sound-bar"></span>
+    </div>
+    <span>🎧 Hear About Me</span>
+  </button>
+
+  <!-- ========================================================================
+       FULLSCREEN PITCH-BLACK "BLUE HOLOGRAM CLONE" CINEMATIC EXPERIENCE
+       ======================================================================== -->
+  <div class="clone-overlay" id="cloneOverlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <!-- Top Navigation HUD -->
+    <div class="clone-top-bar">
+      <div class="clone-mode-title">
+        <span style="color: var(--accent-cyan);">●</span>
+        <span>Baibhav Dhamala · Blue Hologram Clone Projection</span>
+      </div>
+      <button type="button" class="clone-close-btn" id="cloneCloseBtn">
+        <span>✕ Exit Hologram</span>
+      </button>
+    </div>
+
+    <!-- Giant Dynamic Backdrop Keyword (Flashes in deep background BEHIND hologram) -->
+    <div class="clone-backdrop-word" id="cloneBackdropWord" aria-hidden="true">
+      BAIBHAV
+    </div>
+
+    <!-- Center Hologram Clone on Projector Pedestal -->
+    <div class="clone-center-wrap">
+      <div class="clone-avatar-wrap" id="cloneAvatarWrap">
+        <!-- Blue Hologram Full-Body Projection Image standing on Pedestal with Scanlines -->
+        <img src="public/images/baibhav_fullbody_hologram.jpg" alt="Baibhav Dhamala Blue Hologram Full Body Projection" class="clone-avatar-img">
+        <!-- Interactive Video Player (Active when video clips are placed in public/videos/) -->
+        <video id="cloneVideoPlayer" class="clone-video-element" playsinline preload="auto"></video>
+        <!-- Realistic Real-Time Lip-Sync Articulation Overlay -->
+        <div class="clone-lipsync-overlay" aria-hidden="true"></div>
+        <!-- Concentric Glowing Pedestal Laser Ring -->
+        <div class="clone-pedestal-laser" aria-hidden="true"></div>
+      </div>
+
+      <div class="clone-speaking-badge">
+        <span class="speaking-dot"></span>
+        <span>Baibhav (Hologram Projection) Speaking</span>
+      </div>
+
+      <!-- Real-time Synchronized Subtitles -->
+      <div class="clone-captions-box" id="cloneCaptions">
+        Initializing holographic audio projection...
+      </div>
+
+      <!-- Bottom Audio Controls -->
+      <div class="clone-bottom-controls">
+        <button type="button" class="clone-ctrl-btn" id="cloneReplayBtn">↺ Replay Audio</button>
+        <button type="button" class="clone-ctrl-btn" id="cloneAudioToggle">🔊 Sound On</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL: Project Case Study Inspector
+       ======================================================================== -->
+  <div class="modal-overlay" id="projectCaseModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <div class="modal-header-bar">
+        <div>
+          <span class="project-category-badge" id="modalProjCategory" style="position: static; display: inline-block; margin-bottom: 4px;">Category</span>
+          <h3 id="modalProjTitle">Project Showcase</h3>
+        </div>
+        <button type="button" class="modal-close-btn" id="projectModalClose" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <div class="modal-scroll-body">
+        <div style="display: flex; align-items: center; gap: 16px; padding: 16px; background: rgba(255,255,255,0.03); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+          <div id="modalProjIcon" style="font-size: 38px;">🚀</div>
+          <div>
+            <h4 id="modalProjTagline" style="font-size: 15px; color: #fff; margin-bottom: 2px;">Tagline</h4>
+            <span id="modalProjStats" style="font-family: var(--font-mono); font-size: 12px; color: var(--accent-cyan);">Stats &amp; Impact</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 style="font-size: 14px; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 0.08em; margin-bottom: 8px;">The Problem</h4>
+          <p id="modalProjProblem" style="font-size: 14px; color: var(--text-body); line-height: 1.6;"></p>
+        </div>
+
+        <div>
+          <h4 style="font-size: 14px; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 0.08em; margin-bottom: 8px;">The Engineering Solution</h4>
+          <p id="modalProjSolution" style="font-size: 14px; color: var(--text-body); line-height: 1.6;"></p>
+        </div>
+
+        <div>
+          <h4 style="font-size: 14px; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 0.08em; margin-bottom: 8px;">Detailed Description</h4>
+          <p id="modalProjDesc" style="font-size: 14px; color: var(--text-muted); line-height: 1.6;"></p>
+        </div>
+
+        <div id="modalProjCustom" style="margin-top: 16px;"></div>
+
+        <div>
+          <h4 style="font-size: 14px; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 0.08em; margin-bottom: 8px;">Tech Stack</h4>
+          <div class="project-tags" id="modalProjTags"></div>
+        </div>
+
+        <div style="display: flex; gap: 14px; margin-top: 10px;">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <span>View Source on GitHub</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+          <button type="button" class="btn btn-secondary btn-sm" onclick="document.getElementById('projectCaseModal').classList.remove('is-active'); document.body.style.overflow='';">Close Window</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL: Academic Resume / CV Drawer
+       ======================================================================== -->
+  <div class="modal-overlay" id="academicModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card" style="max-width: 800px;">
+      <div class="modal-header-bar">
+        <div>
+          <span class="badge-stream" style="margin-bottom: 4px; display: inline-block;">Sri Sri Academy Siliguri · Class XI</span>
+          <h3>Baibhav Dhamala — Academic Credentials</h3>
+        </div>
+        <button type="button" class="modal-close-btn" id="academicModalClose" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <div class="modal-scroll-body">
+        <!-- Education block -->
+        <div>
+          <h4 style="font-size: 14px; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 0.08em; margin-bottom: 12px;">Education &amp; Credentials</h4>
+          <div class="glass-panel" style="padding: 18px 22px; margin-bottom: 12px;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+              <strong style="color: #fff; font-size: 16px;">Sri Sri Academy Siliguri — Class 11 Science (PCM + CS)</strong>
+              <span style="font-family: var(--font-mono); font-size: 12px; color: var(--accent-cyan);">2025 – Present</span>
+            </div>
+            <p style="font-size: 13.5px; color: var(--text-muted); margin-bottom: 6px;">Focus: Physics, Chemistry, Mathematics, Computer Science</p>
+            <p style="font-size: 13px; color: var(--text-body);">Foundational studies supported by Sankalp Study Circle in Siliguri.</p>
+          </div>
+
+          <div class="glass-panel" style="padding: 18px 22px;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+              <strong style="color: #fff; font-size: 16px;">CBSE Class X Board Examination Result</strong>
+              <span style="font-family: var(--font-mono); font-size: 14px; color: #34d399; font-weight: 700;">90% Distinction</span>
+            </div>
+            <p style="font-size: 13.5px; color: var(--text-muted); margin-bottom: 6px;">Sri Sri Academy Siliguri · Session 2025–26</p>
+            <p style="font-size: 13px; color: var(--text-body);">Recognized as one of the top academic achievers of Sri Sri Academy in the Class 10 CBSE Board Examinations.</p>
+          </div>
+        </div>
+
+        <!-- Startups & Ventures -->
+        <div>
+          <h4 style="font-size: 14px; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 0.08em; margin-bottom: 12px;">Venture &amp; Competitions</h4>
+          <ul class="academic-list">
+            <li class="academic-list-item">
+              <span class="dot"></span>
+              <div>
+                <strong style="color: #fff;">Sole Founder, Dhamala Tech:</strong> Artificial intelligence platform building next-generation AI tools (ChatX AI Workspace, TutorX learning platform, SanketX HCI), and operating digital design agency Kalp Studio.
+              </div>
+            </li>
+            <li class="academic-list-item">
+              <span class="dot"></span>
+              <div>
+                <strong style="color: #fff;">1st Place Winner, Techzibit 1.0:</strong> Champion project in Sri Sri Academy's flagship tech festival.
+              </div>
+            </li>
+            <li class="academic-list-item">
+              <span class="dot"></span>
+              <div>
+                <strong style="color: #fff;">Intel &amp; CBSE Certified:</strong> Completed the AI for Youth Program and built TrashTrack AI.
+              </div>
+            </li>
+            <li class="academic-list-item">
+              <span class="dot"></span>
+              <div>
+                <strong style="color: #fff;">Sri Sri Academy Cricket Team:</strong> Competed in 19th Surendra Agarwal Memorial Tournament and Doon Premier League.
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div style="display: flex; gap: 14px; margin-top: 10px;">
+          <a href="#contact" class="btn btn-primary btn-sm" onclick="document.getElementById('academicModal').classList.remove('is-active'); document.body.style.overflow='';">Contact Baibhav</a>
+          <button type="button" class="btn btn-secondary btn-sm" onclick="window.print()">Print / Save PDF</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="src/portfolio.js"></script>
+  <script type="module" src="src/clone-experience.js"></script>
+</body>
+</html>
