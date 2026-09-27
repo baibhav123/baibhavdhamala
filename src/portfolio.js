@@ -182,7 +182,7 @@ export const PROJECTS_DATA = [
     problem: 'Classroom education struggles to adapt to individual student learning speeds, leaving conceptual gaps in foundational STEM subjects.',
     solution: 'Created an intelligent tutoring architecture that diagnoses student comprehension in real time and automatically adapts lesson depth and exercises.',
     tags: ['EdTech', 'Adaptive Learning', 'AI Tutoring', 'K-12 Education', 'Dhamala Tech'],
-    stats: 'Class 2–12 Personalized Platform · dhamalatech.com/tutorx',
+    stats: 'Class 2–12 Personalized Platform · tutorx.dhamalatech.com',
     accentColor: '#10b981',
     icon: '📚',
   },
