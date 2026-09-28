@@ -189,16 +189,102 @@ export const PROJECTS_DATA = [
   {
     id: 'sanketx',
     category: 'iot',
-    categoryLabel: 'Next-Gen HCI System',
-    title: 'SanketX — Voice & Gesture Tracking Interaction System',
-    tagline: 'Hardware-software combination redefining human-computer interaction through real-time voice and gesture tracking',
-    desc: 'Unveiled by Dhamala Tech in February 2026. SanketX is a breakthrough multimodal interaction system combining hardware sensors and computer vision software to track physical hand gestures and acoustic voice commands for zero-touch computing.',
-    problem: 'Traditional peripheral input devices are limiting for immersive interfaces, laboratory settings, and accessibility-first environments.',
-    solution: 'Engineered a low-latency gesture recognition pipeline integrated with automated speech recognition for intuitive multi-modal control.',
-    tags: ['Computer Vision', 'Voice Control', 'Hardware-Software', 'HCI', 'Dhamala Tech'],
-    stats: 'Unveiled February 2026 · Next-Gen HCI',
-    accentColor: '#a855f7',
+    categoryLabel: 'Assistive Tech · National Recognition',
+    title: 'SanketX — Assistive Voice & Gesture Interaction System',
+    tagline: 'Assistive utility tool empowering differently-abled users to interface with computers seamlessly through gesture and voice control',
+    desc: 'SanketX is a gesture- and voice-controlled software application that Baibhav Dhamala co-developed alongside his peers from Sri Sri Academy Siliguri. The software was specifically built as an assistive utility tool designed to empower the differently-abled by allowing them to interface with computers seamlessly without requiring conventional mouse or keyboard peripherals.',
+    problem: 'Conventional computing input devices (mice, keyboards) pose severe physical and ergonomic barriers for individuals with motor disabilities, tremors, or limb impairments, hindering digital independence and computer literacy.',
+    solution: 'Engineered an accessible, real-time multimodal interface that translates webcam spatial hand gestures and acoustic voice commands into virtual system navigation, mouse clicks, and keyboard strokes with zero expensive external hardware.',
+    tags: [
+      'Assistive Technology',
+      'Accessibility (a11y)',
+      'Computer Vision',
+      'Voice Control',
+      'Sri Sri Academy Siliguri',
+      'Futurescape 2047 Top 10',
+      'BITM & ISRO Felicitation',
+      'Dhamala Tech'
+    ],
+    stats: 'National Top 10 at Futurescape 2047 · Felicitated by BITM (Kolkata) with ISRO Chairman',
+    accentColor: '#c084fc',
     icon: '🔮',
+    customHtml: `
+      <!-- Achievements & Milestones Showcase -->
+      <div style="margin-bottom: 20px;">
+        <h4 style="font-size: 13.5px; text-transform: uppercase; color: #c084fc; letter-spacing: 0.08em; margin-bottom: 10px;">National Honors &amp; Felicitations</h4>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="background: rgba(168, 85, 247, 0.08); border: 1px solid rgba(168, 85, 247, 0.3); padding: 14px; border-radius: 6px;">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+              <span style="font-size: 18px;">🏆</span>
+              <strong style="color: #fff; font-size: 14px;">National Top 10 — Futurescape 2047 Competition</strong>
+            </div>
+            <p style="font-size: 13px; color: var(--text-body); line-height: 1.5; margin: 0;">
+              Baibhav Dhamala and his school team made history by securing a prestigious place among the <strong>Top 10 nationally</strong> at the acclaimed <strong>Futurescape 2047 Competition</strong> for their pioneering assistive computing prototype.
+            </p>
+          </div>
+
+          <div style="background: rgba(168, 85, 247, 0.08); border: 1px solid rgba(168, 85, 247, 0.3); padding: 14px; border-radius: 6px;">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+              <span style="font-size: 18px;">🎖️</span>
+              <strong style="color: #fff; font-size: 14px;">High-Profile Felicitation by BITM &amp; ISRO Chairman</strong>
+            </div>
+            <p style="font-size: 13px; color: var(--text-body); line-height: 1.5; margin: 0;">
+              The innovation was formally recognized and felicitated by the <strong>Birla Industrial &amp; Technological Museum (BITM)</strong> at the prestigious <strong>ITC Sonar in Kolkata</strong>. The ceremony was notably graced by the <strong>ISRO Chairman</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Development Team & Mentorship -->
+      <div style="margin-bottom: 20px;">
+        <h4 style="font-size: 13.5px; text-transform: uppercase; color: #c084fc; letter-spacing: 0.08em; margin-bottom: 10px;">The Development Team &amp; Mentorship</h4>
+        <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); padding: 14px; border-radius: 6px;">
+          <p style="font-size: 13px; color: var(--text-body); line-height: 1.6; margin: 0 0 10px;">
+            Engineered collaboratively by a passionate team of student innovators from <strong>Sri Sri Academy Siliguri</strong>:
+          </p>
+          <ul style="list-style: none; padding: 0; margin: 0 0 10px; display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--text-body);">
+            <li style="display: flex; align-items: center; gap: 8px;">
+              <span style="color: #c084fc;">▹</span> <strong>Baibhav Dhamala</strong> — Software Architecture, Gesture Computer Vision &amp; Voice Engine
+            </li>
+            <li style="display: flex; align-items: center; gap: 8px;">
+              <span style="color: #c084fc;">▹</span> <strong>Divyanshu Kashyap</strong> — Co-Developer &amp; Systems Integration
+            </li>
+            <li style="display: flex; align-items: center; gap: 8px;">
+              <span style="color: #c084fc;">▹</span> <strong>Aarav Agrawal</strong> — Co-Developer &amp; Functional Testing
+            </li>
+          </ul>
+          <span style="font-size: 12px; color: var(--text-muted); display: block; border-top: 1px solid var(--border-subtle); padding-top: 8px;">
+            Guided and mentored by the faculty at <strong>Sri Sri Academy Siliguri</strong>.
+          </span>
+        </div>
+      </div>
+
+      <!-- Technical Architecture Highlights -->
+      <div style="margin-bottom: 20px;">
+        <h4 style="font-size: 13.5px; text-transform: uppercase; color: #c084fc; letter-spacing: 0.08em; margin-bottom: 10px;">Assistive Engineering Architecture</h4>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-bottom: 14px;">
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); padding: 10px 12px; border-radius: 6px;">
+            <strong style="color: #fff; font-size: 12.5px; display: block; margin-bottom: 4px;">👁️ Spatial Gesture Tracking</strong>
+            <p style="font-size: 12px; color: var(--text-muted); margin: 0; line-height: 1.4;">Real-time 3D hand landmark estimation mapping finger motions to cursor coordinates at 60 FPS.</p>
+          </div>
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); padding: 10px 12px; border-radius: 6px;">
+            <strong style="color: #fff; font-size: 12.5px; display: block; margin-bottom: 4px;">🎙️ Acoustic Voice Commands</strong>
+            <p style="font-size: 12px; color: var(--text-muted); margin: 0; line-height: 1.4;">Low-latency speech recognition triggering hands-free window manipulation and text transcription.</p>
+          </div>
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); padding: 10px 12px; border-radius: 6px;">
+            <strong style="color: #fff; font-size: 12.5px; display: block; margin-bottom: 4px;">♿ Assistive OS Emulation</strong>
+            <p style="font-size: 12px; color: var(--text-muted); margin: 0; line-height: 1.4;">Direct virtual mouse and keyboard hooks allowing full OS control without physical contact.</p>
+          </div>
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); padding: 10px 12px; border-radius: 6px;">
+            <strong style="color: #fff; font-size: 12.5px; display: block; margin-bottom: 4px;">⚡ Zero Specialized Hardware</strong>
+            <p style="font-size: 12px; color: var(--text-muted); margin: 0; line-height: 1.4;">Runs on standard consumer laptops with everyday webcams, democratizing assistive technology.</p>
+          </div>
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <a href="https://dhamalatech.com/blog" target="_blank" rel="noopener noreferrer" style="font-family: var(--font-mono); font-size: 12px; color: #c084fc; text-decoration: underline;">Read Technical Details on Dhamala Tech Blog ↗</a>
+        </div>
+      </div>
+    `,
   },
   {
     id: 'trashtrackai',
