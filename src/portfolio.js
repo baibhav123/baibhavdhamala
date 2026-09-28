@@ -315,16 +315,90 @@ export const PROJECTS_DATA = [
     icon: '🚀',
   },
   {
+    id: 'signinterpreter',
+    category: 'ai',
+    categoryLabel: '1st Place Gold · Nirman at Birla Divya Jyoti',
+    title: 'Real-Time Sign Language Interpreter AI',
+    tagline: '1st Place Winning AI Innovation at the Nirman Competition organized by Birla Divya Jyoti Siliguri',
+    desc: 'An AI-powered computer vision and sign language recognition application co-developed by Baibhav Dhamala with a partner. Built as an assistive communication system that detects physical hand signs and gestures via camera in real time and translates them into understandable text and synthesized speech.',
+    problem: 'Deaf, hard-of-hearing, and speech-impaired individuals face massive daily barriers communicating with non-signing individuals, while specialized hardware or certified human interpreters are expensive and unavailable in everyday settings.',
+    solution: 'Developed an accessible computer vision pipeline that tracks spatial hand coordinates and gestures using standard webcams, instantly mapping hand signs into natural language text and audible speech without any specialized glove hardware.',
+    tags: [
+      'Python',
+      'Computer Vision',
+      'MediaPipe',
+      'Deep Learning',
+      'Sign Language AI',
+      'Assistive Tech',
+      'Birla Divya Jyoti',
+      'Nirman 1st Place'
+    ],
+    stats: '1st Place Gold Winner · Nirman Competition (Organized by Birla Divya Jyoti Siliguri)',
+    accentColor: '#10b981',
+    icon: '🤟',
+    customHtml: `
+      <!-- Competition & Honors Showcase -->
+      <div style="margin-bottom: 20px;">
+        <h4 style="font-size: 13.5px; text-transform: uppercase; color: #10b981; letter-spacing: 0.08em; margin-bottom: 10px;">Championship Victory</h4>
+        <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.3); padding: 14px; border-radius: 6px;">
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+            <span style="font-size: 18px;">🥇</span>
+            <strong style="color: #fff; font-size: 14px;">1st Place Winner — Nirman Competition</strong>
+          </div>
+          <p style="font-size: 13px; color: var(--text-body); line-height: 1.5; margin: 0 0 6px;">
+            Secured <strong>1st Place</strong> at the prestigious <strong>Nirman Competition</strong>, organized by <strong>Birla Divya Jyoti, Siliguri</strong>.
+          </p>
+          <span style="font-size: 12px; color: #10b981; font-family: var(--font-mono);">
+            Recognized by jury and educators for practical assistive technology and real-world impact.
+          </span>
+        </div>
+      </div>
+
+      <!-- Team & Development -->
+      <div style="margin-bottom: 20px;">
+        <h4 style="font-size: 13.5px; text-transform: uppercase; color: #10b981; letter-spacing: 0.08em; margin-bottom: 10px;">Collaborative Engineering</h4>
+        <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); padding: 14px; border-radius: 6px;">
+          <p style="font-size: 13px; color: var(--text-body); line-height: 1.6; margin: 0;">
+            Co-developed by <strong>Baibhav Dhamala</strong> alongside a dedicated project partner. Baibhav engineered the real-time computer vision pipeline, hand landmark feature extraction, gesture classification algorithms, and the dynamic text-to-speech output interface.
+          </p>
+        </div>
+      </div>
+
+      <!-- Key Capabilities -->
+      <div style="margin-bottom: 20px;">
+        <h4 style="font-size: 13.5px; text-transform: uppercase; color: #10b981; letter-spacing: 0.08em; margin-bottom: 10px;">Technical Architecture Highlights</h4>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); padding: 10px 12px; border-radius: 6px;">
+            <strong style="color: #fff; font-size: 12.5px; display: block; margin-bottom: 4px;">🖐️ 21 Spatial Hand Keypoints</strong>
+            <p style="font-size: 12px; color: var(--text-muted); margin: 0; line-height: 1.4;">Tracks knuckles, fingertips, and palm orientations at high frame rates with sub-millimeter precision.</p>
+          </div>
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); padding: 10px 12px; border-radius: 6px;">
+            <strong style="color: #fff; font-size: 12.5px; display: block; margin-bottom: 4px;">⚡ Real-Time Sign Classification</strong>
+            <p style="font-size: 12px; color: var(--text-muted); margin: 0; line-height: 1.4;">Instant recognition of static hand configurations and dynamic gestural motions into character and word tokens.</p>
+          </div>
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); padding: 10px 12px; border-radius: 6px;">
+            <strong style="color: #fff; font-size: 12.5px; display: block; margin-bottom: 4px;">🔊 Real-Time Voice Synthesis</strong>
+            <p style="font-size: 12px; color: var(--text-muted); margin: 0; line-height: 1.4;">Translates detected hand signs directly into spoken audio output and on-screen captions.</p>
+          </div>
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); padding: 10px 12px; border-radius: 6px;">
+            <strong style="color: #fff; font-size: 12.5px; display: block; margin-bottom: 4px;">💻 Zero Hardware Friction</strong>
+            <p style="font-size: 12px; color: var(--text-muted); margin: 0; line-height: 1.4;">Operates entirely via standard webcam on consumer laptops without requiring expensive sensor gloves.</p>
+          </div>
+        </div>
+      </div>
+    `,
+  },
+  {
     id: 'techzibit',
     category: 'iot',
-    categoryLabel: 'Tech Fest 1st Place',
+    categoryLabel: 'Tech Fest 1st Place (2025)',
     title: 'Smart Campus IoT & Environmental Telemetry',
-    tagline: '1st Place Winning Innovation at Sri Sri Academy Tech Fest Techzibit 1.0',
-    desc: 'Champion project designed for Techzibit 1.0 at Sri Sri Academy Siliguri. Built a connected microcontroller network capturing real-time environmental metrics (PM2.5, carbon levels, ambient acoustics) and visualizing campus telemetry across interactive digital monitors.',
+    tagline: '1st Place Winning Innovation at Techzibit 1.0 (Held by Sri Sri Academy Siliguri in 2025)',
+    desc: 'Champion 1st Place project designed for Techzibit 1.0, held and organized by Sri Sri Academy Siliguri in 2025. Built a connected microcontroller network capturing real-time environmental metrics (PM2.5, carbon levels, ambient acoustics) and visualizing campus telemetry across interactive digital monitors.',
     problem: 'Classrooms and school laboratories lacked automated environmental data tracking to ensure healthy ventilation and noise levels.',
     solution: 'Built an integrated sensor station utilizing microcontrollers and custom telemetry dashboards, securing 1st Place at Techzibit 1.0.',
-    tags: ['C++', 'Arduino/ESP32', 'IoT Sensors', 'Telemetry', 'Award Winner'],
-    stats: '1st Place Winner · Techzibit 1.0 at Sri Sri Academy Siliguri',
+    tags: ['C++', 'Arduino/ESP32', 'IoT Sensors', 'Telemetry', 'Sri Sri Academy 2025', '1st Place Winner'],
+    stats: '1st Place Gold Winner · Techzibit 1.0 (Held by Sri Sri Academy Siliguri, 2025)',
     accentColor: '#10b981',
     icon: '🏆',
   },
