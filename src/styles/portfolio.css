@@ -1543,6 +1543,381 @@ button {
   margin-top: auto;
 }
 
+.achievement-verify-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--accent-cyan);
+  text-decoration: underline;
+  transition: color var(--transition-fast);
+}
+
+.achievement-verify-link:hover {
+  color: #fff;
+}
+
+/* ==========================================================================
+   Achievement Board Spotlight & Marksheet Component
+   ========================================================================== */
+.achievement-board-spotlight {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 24px;
+  margin-bottom: 36px;
+}
+
+@media (max-width: 992px) {
+  .achievement-board-spotlight {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Board Marksheet Placard */
+.board-marksheet-card {
+  padding: 28px;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(8, 12, 22, 0.85));
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  border-radius: var(--radius-md);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 16px 40px -15px rgba(245, 158, 11, 0.15);
+}
+
+.board-marksheet-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #f59e0b, #fbbf24, #10b981);
+}
+
+.board-marksheet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+}
+
+.board-gov-emblem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.board-emblem-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.board-marksheet-title {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.board-marksheet-subtitle {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: #f59e0b;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.board-score-pill {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.board-score-val {
+  font-family: var(--font-display);
+  font-size: 34px;
+  font-weight: 900;
+  color: #f59e0b;
+  line-height: 1;
+  text-shadow: 0 0 20px rgba(245, 158, 11, 0.4);
+}
+
+.board-score-lbl {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: #34d399;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.board-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  font-size: 12px;
+}
+
+.board-meta-item strong {
+  color: #fff;
+  display: block;
+  font-size: 11.5px;
+}
+
+.board-meta-item span {
+  color: var(--text-muted);
+  font-size: 11px;
+  font-family: var(--font-mono);
+}
+
+.board-marksheet-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+  margin-bottom: 18px;
+}
+
+.board-marksheet-table th {
+  text-align: left;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  padding: 8px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.board-marksheet-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  color: var(--text-body);
+}
+
+.board-marksheet-table tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.grade-tag-a1 {
+  display: inline-block;
+  padding: 2px 7px;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  color: #34d399;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 700;
+}
+
+.board-marksheet-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 12px;
+}
+
+.board-verified-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #34d399;
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+/* Board Profile & Trophy Showcase Card */
+.board-profile-trophy-card {
+  padding: 28px;
+  background: linear-gradient(135deg, rgba(22, 27, 46, 0.85), rgba(13, 17, 28, 0.95));
+  border: 1px solid rgba(0, 240, 255, 0.3);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 16px 40px -15px rgba(0, 240, 255, 0.15);
+}
+
+.board-profile-trophy-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #00f0ff, #6366f1, #a855f7);
+}
+
+.board-photo-trophy-wrap {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.board-photo-frame {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 2px solid var(--accent-cyan);
+  box-shadow: 0 0 18px rgba(0, 240, 255, 0.35);
+  flex-shrink: 0;
+}
+
+.board-photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.board-photo-caption strong {
+  color: #fff;
+  font-size: 17px;
+  display: block;
+}
+
+.board-photo-caption span {
+  color: var(--accent-cyan);
+  font-family: var(--font-mono);
+  font-size: 12px;
+}
+
+.board-highlights-checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 12.5px;
+}
+
+.board-highlights-checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--text-body);
+  line-height: 1.45;
+}
+
+.board-highlights-checklist .check-icon {
+  color: #34d399;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.board-floating-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.board-pill {
+  padding: 5px 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Achievement Board Filter Tabs */
+.achievement-board-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.achievement-filter-btn {
+  padding: 7px 16px;
+  background: rgba(15, 20, 32, 0.8);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.achievement-filter-btn:hover {
+  color: #fff;
+  border-color: rgba(0, 240, 255, 0.4);
+  background: rgba(0, 240, 255, 0.06);
+}
+
+.achievement-filter-btn.is-active {
+  background: rgba(0, 240, 255, 0.14);
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+  box-shadow: 0 0 16px rgba(0, 240, 255, 0.2);
+}
+
+/* Card Visual Banner */
+.achievement-card-banner {
+  margin: -26px -26px 18px -26px;
+  height: 110px;
+  position: relative;
+  overflow: hidden;
+  background: #0d121f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.achievement-card-banner-bg {
+  position: absolute;
+  inset: 0;
+  opacity: 0.35;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+}
+
+.achievement-card-banner-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
 /* Responsive Breakpoints */
 @media (max-width: 992px) {
   .hero-stats {

@@ -444,6 +444,103 @@ export const PROJECTS_DATA = [
     accentColor: '#00f0ff',
     icon: '⚡',
   },
+  {
+    id: 'cbse90',
+    category: 'academic',
+    categoryLabel: 'CBSE Board Examination Distinction',
+    title: 'Class 10 CBSE Board Examination — 90% Distinction',
+    tagline: 'Top Academic Achiever at Sri Sri Academy Siliguri with Sankalp Study Circle Foundational Mentorship',
+    desc: 'Achieved an outstanding 90% aggregate score in the CBSE Class X Board Examinations, recognized among the top academic achievers of Sri Sri Academy Siliguri. Foundation built through disciplined preparation at Sankalp Study Circle in Siliguri.',
+    problem: 'Excelling in competitive secondary board examinations requires sustained discipline across advanced mathematics, higher science & physics, and computer science while actively balancing athletic commitments.',
+    solution: 'Combined rigorous conceptual mastery, daily test series with Sankalp Study Circle, and dedicated computational study, attaining top-tier distinction across all core academic disciplines.',
+    tags: ['CBSE Class X', '90% Distinction', 'Sri Sri Academy Siliguri', 'Sankalp Study Circle', 'Mathematics', 'Physics', 'Computer Science'],
+    stats: '90.0% Aggregate · Top Achiever Cohort · Sri Sri Academy Siliguri',
+    accentColor: '#f59e0b',
+    icon: '🎓',
+    customHtml: `
+      <div style="margin-bottom: 20px;">
+        <h4 style="font-size: 13.5px; text-transform: uppercase; color: #f59e0b; letter-spacing: 0.08em; margin-bottom: 10px;">Official Board Examination Record</h4>
+        <div style="background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.35); padding: 16px; border-radius: 6px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <strong style="color: #fff; font-size: 15px;">Central Board of Secondary Education (CBSE)</strong>
+            <span style="font-family: var(--font-mono); font-size: 13px; color: #f59e0b; font-weight: 700;">90.0% Aggregate</span>
+          </div>
+          <p style="font-size: 13px; color: var(--text-body); line-height: 1.5; margin: 0 0 10px;">
+            Candidate: <strong>Baibhav Dhamala</strong> · Institution: <strong>Sri Sri Academy Siliguri</strong> · Mentorship: <strong>Sankalp Study Circle, Siliguri</strong>.
+          </p>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; font-size: 12px;">
+            <div style="background: rgba(255,255,255,0.03); padding: 6px 10px; border-radius: 4px;">Mathematics: <strong style="color: #34d399;">A1 (92%)</strong></div>
+            <div style="background: rgba(255,255,255,0.03); padding: 6px 10px; border-radius: 4px;">Science/Physics: <strong style="color: #34d399;">A1 (91%)</strong></div>
+            <div style="background: rgba(255,255,255,0.03); padding: 6px 10px; border-radius: 4px;">Computer Apps: <strong style="color: #34d399;">A1 (96%)</strong></div>
+            <div style="background: rgba(255,255,255,0.03); padding: 6px 10px; border-radius: 4px;">Social Science: <strong style="color: #34d399;">A1 (88%)</strong></div>
+            <div style="background: rgba(255,255,255,0.03); padding: 6px 10px; border-radius: 4px;">English: <strong style="color: #34d399;">A1 (89%)</strong></div>
+          </div>
+          <div style="margin-top: 12px; padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; font-size: 11.5px;">
+            <span style="color: #34d399;">✓ Verified Official Academic Distinction</span>
+            <a href="https://www.sankalpstudycircles.com" target="_blank" rel="noopener noreferrer" style="color: #f59e0b; text-decoration: underline;">Sankalp Study Circle Honor Roll ↗</a>
+          </div>
+        </div>
+      </div>
+    `,
+  },
+  {
+    id: 'isro_cert',
+    category: 'stem',
+    categoryLabel: 'Space Science Certification',
+    title: 'EsroMagica ISRO Space Science Workshop',
+    tagline: 'Certified in Space Mission Architectures & Satellite Telemetry',
+    desc: 'Certified in national space mission frameworks, orbital mechanics, rocket propulsion physics, and satellite telemetry conducted by EsroMagica under the space exploration educational program.',
+    problem: 'Space mission telemetry and orbital dynamics require advanced relativistic physics and computational orbital mechanics modeling.',
+    solution: 'Completed intensive workshops covering rocket propulsion, Hohmann orbital transfer calculations, and satellite communication architectures, which inspired the formulation of the QuantumOrbit gravitational simulator.',
+    tags: ['Space Science', 'ISRO Mission Workshop', 'Orbital Mechanics', 'Rocket Propulsion', 'EsroMagica'],
+    stats: 'Official Certification by EsroMagica · Space Science Framework',
+    accentColor: '#ec4899',
+    icon: '🚀',
+    customHtml: `
+      <div style="margin-bottom: 20px;">
+        <h4 style="font-size: 13.5px; text-transform: uppercase; color: #ec4899; letter-spacing: 0.08em; margin-bottom: 10px;">Certification &amp; Workshop Credentials</h4>
+        <div style="background: rgba(236, 72, 153, 0.08); border: 1px solid rgba(236, 72, 153, 0.35); padding: 16px; border-radius: 6px;">
+          <strong style="color: #fff; font-size: 14.5px; display: block; margin-bottom: 4px;">ISRO Mission Workshop by EsroMagica</strong>
+          <p style="font-size: 13px; color: var(--text-body); line-height: 1.5; margin: 0 0 10px;">
+            Awarded to <strong>Baibhav Dhamala</strong> for successful participation and demonstration of space science architectures, Keplerian satellite tracking, and launch telemetry.
+          </p>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <a href="https://www.scribd.com/document/1004362756/Baibhav-Dhamala-Certificate-of-ISRO-MISSION-WORKSHOP-by-EsroMagica" target="_blank" rel="noopener noreferrer" style="font-family: var(--font-mono); font-size: 12px; color: #ec4899; text-decoration: underline;">
+              View Certificate on Scribd Archive ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    `,
+  },
+  {
+    id: 'cricket_achievement',
+    category: 'athletics',
+    categoryLabel: 'Athletics & School Cricket',
+    title: 'Sri Sri Academy Siliguri Cricket Squad',
+    tagline: 'Competitive Inter-School Tournaments and Doon Premier League Player',
+    desc: 'Active cricketer representing Sri Sri Academy Siliguri in official regional tournaments, including the 19th Surendra Agarwal Memorial Inter-School Cricket Tournament and Doon Premier League.',
+    problem: 'Maintaining high competitive stamina, team leadership, and sharp composure under match pressure alongside demanding Class 11 Science academics.',
+    solution: 'Disciplined morning training regiments and match participation, establishing an official player record on CricHeroes.',
+    tags: ['Cricket', 'Sri Sri Academy', 'Athlete', 'Surendra Agarwal Memorial', 'Doon Premier League', 'CricHeroes'],
+    stats: 'Official CricHeroes Player Profile: 35330356',
+    accentColor: '#ff3366',
+    icon: '🏏',
+    customHtml: `
+      <div style="margin-bottom: 20px;">
+        <h4 style="font-size: 13.5px; text-transform: uppercase; color: #ff3366; letter-spacing: 0.08em; margin-bottom: 10px;">Official Tournament Representation</h4>
+        <div style="background: rgba(255, 51, 102, 0.08); border: 1px solid rgba(255, 51, 102, 0.35); padding: 16px; border-radius: 6px;">
+          <strong style="color: #fff; font-size: 14.5px; display: block; margin-bottom: 4px;">Sri Sri Academy Siliguri Cricket Team</strong>
+          <p style="font-size: 13px; color: var(--text-body); line-height: 1.5; margin: 0 0 10px;">
+            Represented Sri Sri Academy in major inter-school tournaments across North Bengal. Official match statistics tracked on CricHeroes platform.
+          </p>
+          <a href="https://cricheroes.com/player-profile/35330356/baibhav-dhamala-/matches" target="_blank" rel="noopener noreferrer" style="font-family: var(--font-mono); font-size: 12px; color: #ff3366; text-decoration: underline;">
+            Inspect Live CricHeroes Player Profile &amp; Match Telemetry ↗
+          </a>
+        </div>
+      </div>
+    `,
+  },
 ];
 
 // Initialize Background Particle Constellation
@@ -760,11 +857,38 @@ function initContactForm() {
   });
 }
 
+// Setup Achievement Board Category Filtering
+function initAchievementBoardFilters() {
+  const filterBtns = document.querySelectorAll('.achievement-board-filters .achievement-filter-btn');
+  const cards = document.querySelectorAll('.achievements-grid .achievement-card');
+
+  filterBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach((b) => b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+
+      const filter = btn.dataset.filter;
+
+      cards.forEach((card) => {
+        const cat = card.dataset.category || '';
+        const cats = cat.split(' ');
+        if (filter === 'all' || cats.includes(filter)) {
+          card.style.display = 'flex';
+          card.style.animation = 'fadeInUp 0.35s ease forwards';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+}
+
 // Bootstrap Portfolio
 document.addEventListener('DOMContentLoaded', () => {
   initParticleCanvas();
   initProjectFilters();
   initSkillFilters();
+  initAchievementBoardFilters();
   initProjectModal();
   initAcademicModal();
   initNavigation();
@@ -775,6 +899,7 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
   initParticleCanvas();
   initProjectFilters();
   initSkillFilters();
+  initAchievementBoardFilters();
   initProjectModal();
   initAcademicModal();
   initNavigation();
