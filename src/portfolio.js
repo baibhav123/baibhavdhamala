@@ -465,16 +465,9 @@ export const PROJECTS_DATA = [
             <strong style="color: #fff; font-size: 15px;">Central Board of Secondary Education (CBSE)</strong>
             <span style="font-family: var(--font-mono); font-size: 13px; color: #f59e0b; font-weight: 700;">Session 2025–2026</span>
           </div>
-          <p style="font-size: 13px; color: var(--text-body); line-height: 1.5; margin: 0 0 10px;">
-            Candidate: <strong>Baibhav Dhamala</strong> · Institution: <strong>Sri Sri Academy Siliguri</strong> · Mentorship: <strong>Sankalp Study Circle, Siliguri</strong> · Session: <strong>2025–2026</strong>.
+          <p style="font-size: 13px; color: var(--text-body); line-height: 1.6; margin: 0 0 12px;">
+            Recognized among the top academic distinction holders of <strong>Sri Sri Academy Siliguri</strong> in the CBSE Class X Board Examinations, setting the foundation for Class XI Science (PCM + Computer Science).
           </p>
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; font-size: 12px;">
-            <div style="background: rgba(255,255,255,0.03); padding: 6px 10px; border-radius: 4px;">Mathematics: <strong style="color: #34d399;">Grade A1</strong></div>
-            <div style="background: rgba(255,255,255,0.03); padding: 6px 10px; border-radius: 4px;">Science &amp; Physics: <strong style="color: #34d399;">Grade A1</strong></div>
-            <div style="background: rgba(255,255,255,0.03); padding: 6px 10px; border-radius: 4px;">Computer Apps: <strong style="color: #34d399;">Grade A1</strong></div>
-            <div style="background: rgba(255,255,255,0.03); padding: 6px 10px; border-radius: 4px;">Social Science: <strong style="color: #34d399;">Grade A1</strong></div>
-            <div style="background: rgba(255,255,255,0.03); padding: 6px 10px; border-radius: 4px;">English Literature: <strong style="color: #34d399;">Grade A1</strong></div>
-          </div>
           <div style="margin-top: 12px; padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; font-size: 11.5px;">
             <span style="color: #34d399;">✓ Verified Official Academic Distinction</span>
             <a href="https://www.sankalpstudycircles.com" target="_blank" rel="noopener noreferrer" style="color: #f59e0b; text-decoration: underline;">Sankalp Study Circle Honor Roll ↗</a>
